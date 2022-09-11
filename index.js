@@ -17,10 +17,6 @@ app.put('/AlterarCategoria', (req, res)=>{
     res.send('ROTA DE ALTERAÇÃO DE CATEGORIA!!');
 });
 
-//ROTA DE EXLUSÃO DE CATEGORIA
-app.delete('/DeletarCategoria', (req, res)=>{
-    res.send('ROTA DE DELETAR CATEGORIA!!');
-});
 
 
 app.listen(3000, ()=>{
