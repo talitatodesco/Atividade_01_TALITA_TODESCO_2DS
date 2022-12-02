@@ -4,7 +4,7 @@
   "description": "Atividade de PWII.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "ATIVIDADE",
@@ -16,8 +16,11 @@
   "author": "TALITA TODESCO MARCONDES (TINI)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.24.0"
+    "node": "^19.2.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3"
   }
 }
