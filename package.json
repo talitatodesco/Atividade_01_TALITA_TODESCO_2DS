@@ -16,11 +16,16 @@
   "author": "TALITA TODESCO MARCONDES (TINI)",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.18.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "node": "^19.2.0",
     "nodemon": "^2.0.20",
     "sequelize": "^6.25.3"
+=======
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+>>>>>>> da67f28631f45040945de9a96b9eafa24ae34f2f
   }
 }
